@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    background-color:rgb(199, 197, 197);
+    /* width: 278px; */
+    font-family: 'Comme', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 22px;
+    padding: 24px;
+    text-decoration-line: none;
+}
+
+.sidebar nav li a:hover{
+    background-color: rgb(199, 197, 197);
+    color: white;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellowgreen; */
+    width: 82vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color:pink; */
+    width: 70vw;
+    height: 65vh;
+    margin: auto;
+    margin-top: 69px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.description {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    padding-top: 73px;
+    padding-left: 10px;
+    height: 45vh;
+}
+
+.greet {
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 1.4em;
+}
+
+.button button {
+    margin-top: 0.65rem;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.button{
+    align-items: center;
+    padding: 5px;
+    display: flex;
+}
+
+.button button:hover {
+    color: black;
+    background-color: white;
+}
+
+.linkedin{
+    padding-left: 3.5px;
+}
+
+.github{
+    padding-top: 15.5px;
+}
+
+.pdheading {
+    padding-left: 332px;
+    padding-top: 140px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.personalcontainer {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 114px;
+    margin-top: 15px;
+}   
+
+.personaldetailheadings {
+    color: black;
+    font-size: 30px;
+}
+
+.personaldetailinfo {
+    font-size: 30px;
+}
+
+.pdlemail a {
+    text-decoration: none;
+    color: black;
+}
+
+.pdlemail a:hover {
+    background-color: black;
+    color: white;
+}
+
+.educationheading {
+    padding-left: 384px;
+    padding-top: 140px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.educationcontainer {
+    margin-top: 15px;
+    padding-left: 300px;
+}
+
+th{
+    font-size: 34px;
+    padding: 5px;
+    text-align: center;
+}
+tr{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+td{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projectheading {
+    padding-left: 600px;
+    padding-top: 34px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.projectcontainer{
+    padding-left: 280px;
+    text-align: justify;
+    padding-right: 60px;
+}
+
+.project1{
+    margin-top: 20px;
+}
+
+.p1title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.p1about {
+    font-size: 20px;
+}
+
+.project2{
+    margin-top: 20px;
+}
+
+.p2title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.p2about {
+    font-size: 20px;
+}
+
+.project3{
+    margin-top: 20px;
+}
+
+.p3title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.p3about {
+    font-size: 20px;
+}
+
+.project4{
+    margin-top: 20px;
+}
+
+.p4title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.p4about {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.skillsheading{
+    text-align: center;
+    padding-top: 34px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lora', serif;  
+}
+.skillscontainer {
+    margin-top: 20px;
+    padding-left: 420px;
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}
+
+.sidebargo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cross {
+    margin-left: 205px;
+    margin-top: 10px;
+}
+
+@media (max-width:732px){
+    .image{
+        display: none;
+    }
+
+    .description{
+        font-size: 10px;
+    } 
+
+    .educationheading {
+        padding-left: 43px;
+        padding-top: 80px;
+        font-size: 20px;
+    }
+
+    .pdheading {
+        padding-left: 17px;
+        padding-top: 76px;
+        font-size: 18px;
+    }
+
+    .personalcontainer {
+        font-size: 0px;
+        padding-left: 5px;
+        margin-top: 7px;
+    }
+
+    .personaldetailheadings {
+        font-size: 14px;
+    }
+
+    .personaldetailinfo {
+        font-size: 14px;
+    }
+    
+    .educationcontainer {
+        padding-left: 22px;
+    }
+
+    th{
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    td{
+        padding: 2px;
+        font-size: 9px;
+    }
+
+    .projectheading {
+        padding-left: 90px;
+        padding-top: 34px;
+        font-size: 30px;
+    }
+
+    .projectcontainer{
+        padding-left: 30px;
+        text-align: justify;
+        padding-right: 1px;
+    }
+    
+    .project1{
+        margin-top: 10px;
+    }
+    
+    .p1title {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    
+    .p1about {
+        font-size: 15px;
+    }
+    
+    .project2{
+        margin-top: 10px;
+    }
+    
+    .p2title {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    
+    .p2about {
+        font-size: 15px;
+    }
+    
+    .project3{
+        margin-top: 10px;
+    }
+    
+    .p3title {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    
+    .p3about {
+        font-size: 15px;
+    }
+    
+    .project4{
+        margin-top: 10px;
+    }
+    
+    .p4title {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    
+    .p4about {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .skillsheading{
+        padding-left: 45px;
+        padding-top: 40px;
+        font-size: 35px;
+    }
+    .skillscontainer {
+        margin-top: 20px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    li{
+        padding: 3px;
+    }
+}
